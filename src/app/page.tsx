@@ -34,20 +34,20 @@ export default function Component() {
           {/* Message de remerciement */}
           <div className="mb-8">
             <h2 className="text-2xl md:text-3xl font-semibold text-rose-600 mb-4">
-              Votre appel de coaching est confirmé
+              Ton appel de coaching est confirmé.
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              Merci d&apos;avoir réservé votre séance de coaching personnalisée. Vous recevrez sous peu un email de
-              confirmation avec tous les détails de votre rendez-vous.
+              Merci d&apos;avoir réservé ton appel de coaching personnalisée. Tu recevras sous peu un email de
+              confirmation avec tous les détails de ton rendez-vous.
             </p>
           </div>
 
           {/* Vidéo */}
           <div className="mb-8">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Découvrez ce qui vous attend</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">Découvre ce qui t&apos;attends</h3>
             <div className="relative max-w-md mx-auto">
               <div className="aspect-[9/16] bg-gray-100 rounded-lg overflow-hidden shadow-lg">
-                <video className="w-full h-full object-cover" controls poster="/placeholder.svg?height=600&width=338">
+                <video className="w-full h-full object-cover" controls poster="/apercu.png?height=600&width=338">
                   <source src="/VideoConfirmation.mp4" type="video/mp4" />
                   Votre navigateur ne supporte pas la lecture de vidéos.
                 </video>
@@ -61,15 +61,15 @@ export default function Component() {
             <ul className="text-rose-700 text-left space-y-2">
               <li className="flex items-center">
                 <span className="w-2 h-2 bg-rose-500 rounded-full mr-3"></span>
-                Vérifiez votre boîte email pour la confirmation
+                Vérifies ta boîte email pour la confirmation
               </li>
               <li className="flex items-center">
                 <span className="w-2 h-2 bg-rose-500 rounded-full mr-3"></span>
-                Préparez vos questions et objectifs
+                Prépares tes questions et objectifs
               </li>
               <li className="flex items-center">
                 <span className="w-2 h-2 bg-rose-500 rounded-full mr-3"></span>
-                Rejoignez-nous à l&apos;heure convenue
+                Rejoins moi à l&apos;heure convenue
               </li>
             </ul>
           </div>
@@ -79,7 +79,7 @@ export default function Component() {
             <p>
               Des questions ? Contactez-nous à{" "}
               <a href="mailto:contact@coaching.com" className="text-rose-600 hover:underline">
-                contact@coaching.com
+                kadiacoaching@gmail.com
               </a>
             </p>
           </div>
